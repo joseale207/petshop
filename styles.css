@@ -1,0 +1,143 @@
+/* Estilos para la página */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #626f88;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #21242b;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #626f88;
+    color: white;
+    padding: 1rem 0;
+}
+/* Estilos específicos para los productos en el catálogo */
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+/* Estilos específicos para los productos en el catálogo */
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #6aa36d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #40874e;
+}
+/* Estilos específicos para el carrito de compras */
+.cart-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.cart-item img {
+    max-width: 100%;
+}
+
+.cart-item h3 {
+    margin: 10px 0;
+}
+
+.cart-item button {
+    background-color: #e04020; /* Rojo para el botón "Eliminar" */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-item button:hover {
+    background-color: #810b0b; /* Cambio de color al pasar el mouse */
+}
+
+
+
+
