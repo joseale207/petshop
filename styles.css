@@ -12,10 +12,19 @@ header {
     text-align: center;
     padding: 1rem 0;
 }
+[title] {
 
+    text-decoration: none;
+    
+    }
+    
+    [align="center"] {
+    
+    border: 1px solid red; 
+}
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 2;
 }
 
 nav li {
@@ -138,6 +147,15 @@ footer {
     background-color: #810b0b; /* Cambio de color al pasar el mouse */
 }
 
+.output {
+    font: 1rem 'Fira Sans', sans-serif;      
+    letter-spacing: 1px;  
+    }
 
-
+.pie {
+    border: #21242b 1px solid;
+    color: white;
+    margin: 2px;
+    padding: 10px;
+}
 
